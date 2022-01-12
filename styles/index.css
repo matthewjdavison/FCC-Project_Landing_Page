@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;   
+    width: 100%; 
+}
+#nav-bar{
+    color: white;
+    background: black;
+    width: calc(100% - 20%);
+    display: flex;
+}
+
+#header-img {
+    max-width: 64px;
+}
+#header div{
+    display: flex;
+    column-gap: 0.5rem;
+    color: white;
+    background: black;
+    padding: 0 0.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4.5rem;
+}
+
+#nav-bar li{
+    display: inline;
+    
+}
+#nav-bar li a {
+    color: white;
+}
+#submit, #email {
+    display: block;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 16rem;
+    background: yellowgreen;
+    border-radius: ;
+}
+.card_header {
+    background: violet;
+}
+
+@media screen and (min-width: 412px) {
+    #nav-bar li a {
+        color: white;
+    }
+}
